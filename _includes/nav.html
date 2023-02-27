@@ -1,6 +1,7 @@
 <nav>
     {% for item in site.data.nav %}
-        <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
+        <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %} 
+        {% if page.url == "https://drive.google.com/file/d/1xgk725320l7N_obehU06b5w5F4HCaC8M/view" %}target="_blank"{% endif %}>
             {{ item.name }}
         </a>
     {% endfor %}
