@@ -1,8 +1,6 @@
-- name: Home
+- name: Index
   link: /
 - name: About
   link: /about.html
-- name: Blog
-  link: /blog.html
-- name: Staff
-  link: /staff.html
+- name: Resume
+  link: https://drive.google.com/file/d/1xgk725320l7N_obehU06b5w5F4HCaC8M/view
