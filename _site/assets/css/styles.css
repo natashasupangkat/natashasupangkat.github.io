@@ -1,3 +1,7 @@
+#nav .current {
+  color: black;
+}
+
 .current {
   color: green;
 }
