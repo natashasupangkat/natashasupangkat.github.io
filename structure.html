@@ -1,0 +1,48 @@
+<!--everything should be in the front matter tag-->
+---
+layout: page <!--add layout-->
+meta:
+    description: >-
+        <!--add description for SEO-->
+title: WDAS Internship
+hero:
+    - _type: hero
+      title: WDAS Internship
+      media_assets:
+        - _type: image
+          image: >-
+            <!--IMAGE LINK--> 
+          img_alt:
+          <!--other properties-->
+blocks:
+    - _type: sketch
+      title: 
+      description_html:
+      media_assets:
+    - _type: icon_grid
+---
+
+<!--blocks.html in below
+    Blocks should be in /includes/components/basics/blocks.html
+
+    !!! MODULES ARE IN COMPONENTS/BASICS/
+    blocks.html calls other files in same folder
+    other modules/components called by blocks.html include actual html of module
+
+
+
+    for loop {% for block in include.blocks %}
+        {% case block._type %}
+            {% when 'carousel' %}
+                {% include components/basics/carousel.html content=block.carousel count=forloop.index}
+
+            {% when 'linkboxes' %}
+                <div class="row">
+                    {% for box in block.linkboxes %}
+                        {% include components/basics/linkbox.html box=box %}
+                    {% endfor %}
+        {% endcase %}
+    {% endfor %}
+
+-->
+

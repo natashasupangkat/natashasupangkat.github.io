@@ -1,0 +1,26 @@
+- src
+  - _layouts
+    - includes layouts for different categories
+    - ex: disneyplus
+    - film
+      - layout: drawer
+  - _disneyplus
+    - baymax
+      layout: film
+      title:
+      hero:
+        -_type: hero
+        title: Baymax!
+        media assets:
+          - _type: image
+          image: /im/uploads/disneyplys/baymax/baymax-school.jpg
+          img alt: Baymax
+          object fit:
+          image cover:
+        parent
+      poster image:
+      blocks:
+        - _type: filmdesc
+        - _type: media
+everything is in the front matter 
+and uses blocks
