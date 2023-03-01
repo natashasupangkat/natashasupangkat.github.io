@@ -1,6 +1,29 @@
 // world styles for all pages
-* {
+
+//theme colors
+$beige: #F2EFEC;
+$dark: #272727;
+$white: #ffffff;
+
+$colors: (
+  beige: $beige,
+  white: $white,
+  dark: $dark,
+);
+
+@each $key, $val in $colors {
+  .color-#{$key} {
+    color: $val;
+  }
+
+  .bg-#{$key} {
+    background-color: $val;
+  }
+}
+
+body, * {
     font-family: 'Karla', sans-serif;
+    background-color: $beige;
 }
 
 .karla {
@@ -28,17 +51,28 @@ a {
     font-size: 0.9rem;
 }
 
+.flex {
+    display: flex;
+}
+
 #nav {
+    width: 100%;
+    margin-top: 20px;
+    justify-content: center;
+    background: $beige;
+
     a {
         font-family: 'Space Mono', monospace;
         text-transform: lowercase;
+        color: $dark;
     }
 
-    .current {
-        color: black;
+    .current, a:hover {
+        font-weight: 700;
+        font-style: italic;
     }
 }
 
-.current {
-    color: green;
+.container {
+    
 }
