@@ -46,3 +46,24 @@ blocks:
 
 -->
 
+<!-- !!! LOOK AT THIS ONE !!!
+    list of work in root (index.html)
+    - work loops through _projects folder
+        - in _projects folder
+            - individual html pages of each project
+                - in each html
+                    * all variables within front matter
+                    * has layout: project
+                    * assets:
+                        - _type: module-type
+                        * anything else that might be useful to call
+                    - in _layouts/project
+                        - has project.html (front matter can have nav)
+                        * this html layout has structure of page
+                            * calls page.[something]
+                            * loops through the front matter of html in _projects
+
+    - head html calls styles.css stylesheet 
+        - styles.css imports from _scss folder: (@import '_scss/_settings')
+        
+-->   
