@@ -24,7 +24,10 @@
 
 body, * {
   font-family: "Karla", sans-serif;
+  line-height: 140%;
+  color: #272727;
   background-color: #F2EFEC;
+  box-sizing: border-box;
 }
 
 .karla {
@@ -43,6 +46,11 @@ body, * {
   font-weight: 700;
 }
 
+span {
+  font-family: "Space Mono", sans-serif;
+  letter-spacing: 0;
+}
+
 h1 {
   font-size: 1rem;
 }
@@ -50,10 +58,16 @@ h1 {
 a {
   text-decoration: none;
   font-size: 0.9rem;
+  color: #272727;
 }
 
 .flex {
   display: flex;
+}
+
+main {
+  width: 85vw;
+  margin: 100px auto;
 }
 
 /*tells Sass to look for a file called main.css in the sass directory (_sass/)*/
