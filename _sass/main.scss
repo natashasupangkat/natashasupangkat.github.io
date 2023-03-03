@@ -54,21 +54,3 @@ a {
 .flex {
     display: flex;
 }
-
-#nav {
-    width: 100%;
-    margin-top: 20px;
-    justify-content: center;
-    background: $beige;
-
-    a {
-        font-family: 'Space Mono', monospace;
-        text-transform: lowercase;
-        color: $dark;
-    }
-
-    .current, a:hover {
-        font-weight: 700;
-        font-style: italic;
-    }
-}

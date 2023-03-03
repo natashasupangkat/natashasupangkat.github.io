@@ -1,4 +1,5 @@
 ---
 ---
 
-@import "main"; /*tells Sass to look for a file called main.css in the sass directory (_sass/)*/
+@import "_sass/main"; /*tells Sass to look for a file called main.css in the sass directory (_sass/)*/
+@import "_sass/_nav";
