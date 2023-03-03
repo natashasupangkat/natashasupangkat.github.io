@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 collections:
-  projects:
+  work:
     output: true
     permalink: /:slug
 
