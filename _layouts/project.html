@@ -2,3 +2,25 @@
 layout: default
 ---
 
+{% for asset in page.modules %}
+
+    <!--IMAGE-->
+    {% if asset._type == "image" %}
+
+    {% endif %}
+
+     <!--TEXT-->
+    {% if asset._type == "text" %}
+
+    {% endif %}
+
+     <!--SUBHEADING-->
+    {% if asset._type == "subheading" %}
+
+    {% endif %}
+
+     <!--LIST-->
+    {% if asset._type == "list" %}
+
+    {% endif %}
+{% endfor %}
