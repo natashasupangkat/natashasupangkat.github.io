@@ -95,6 +95,12 @@ collections:
     output: true
 #    permalink: /:slug
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
 # defaults:
 #   - scope:
 #       path: ""
