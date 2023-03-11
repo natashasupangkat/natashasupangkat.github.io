@@ -1,0 +1,70 @@
+// styling for all pages
+
+// theme colors
+$beige: #F2EFEC;
+$dark: #272727;
+$white: #ffffff;
+
+$colors: (
+  "beige": $beige,
+  "white": $white,
+  "dark": $dark,
+);
+
+@each $key, $val in $colors {
+  .color-#{$key} {
+    color: $val;
+  }
+
+  .bg-#{$key} {
+    background-color: $val;
+  }
+}
+
+body, * {
+    font-family: 'Karla', sans-serif;
+    line-height: 140%;
+    color: $dark;
+    background-color: $beige;
+    box-sizing: border-box;
+}
+
+.karla {
+    font-family: 'Karla', sans-serif;
+}
+
+.space-mono {
+    font-family: 'Space Mono', monospace;
+}
+
+.em {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+span {
+    font-family: 'Space Mono', sans-serif;
+    letter-spacing: 0;
+}
+
+h1 {
+    font-size: 1.0rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: $dark;
+}
+
+.flex {
+    display: flex;
+}
+
+main {
+    width: 85vw;
+    margin: 100px auto;
+}

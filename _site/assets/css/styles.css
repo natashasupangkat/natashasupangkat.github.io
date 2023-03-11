@@ -1,90 +1,36 @@
-.color-beige {
-  color: #F2EFEC;
-}
+.color-beige { color: #F2EFEC; }
 
-.bg-beige {
-  background-color: #F2EFEC;
-}
+.bg-beige { background-color: #F2EFEC; }
 
-.color-white {
-  color: #ffffff;
-}
+.color-white { color: #ffffff; }
 
-.bg-white {
-  background-color: #ffffff;
-}
+.bg-white { background-color: #ffffff; }
 
-.color-dark {
-  color: #272727;
-}
+.color-dark { color: #272727; }
 
-.bg-dark {
-  background-color: #272727;
-}
+.bg-dark { background-color: #272727; }
 
-body, * {
-  font-family: "Karla", sans-serif;
-  line-height: 140%;
-  color: #272727;
-  background-color: #F2EFEC;
-  box-sizing: border-box;
-}
+body, * { font-family: 'Karla', sans-serif; line-height: 140%; color: #272727; background-color: #F2EFEC; box-sizing: border-box; }
 
-.karla {
-  font-family: "Karla", sans-serif;
-}
+.karla { font-family: 'Karla', sans-serif; }
 
-.space-mono {
-  font-family: "Space Mono", monospace;
-}
+.space-mono { font-family: 'Space Mono', monospace; }
 
-.em {
-  font-style: italic;
-}
+.em { font-style: italic; }
 
-.bold {
-  font-weight: 700;
-}
+.bold { font-weight: 700; }
 
-span {
-  font-family: "Space Mono", sans-serif;
-  letter-spacing: 0;
-}
+span { font-family: 'Space Mono', sans-serif; letter-spacing: 0; }
 
-h1 {
-  font-size: 1rem;
-}
+h1 { font-size: 1.0rem; }
 
-a {
-  text-decoration: none;
-  font-size: 0.9rem;
-  color: #272727;
-}
+a { text-decoration: none; font-size: 0.9rem; color: #272727; }
 
-.flex {
-  display: flex;
-}
+.flex { display: flex; }
 
-main {
-  width: 85vw;
-  margin: 100px auto;
-}
+main { width: 85vw; margin: 100px auto; }
 
 /*tells Sass to look for a file called main.css in the sass directory (_sass/)*/
-#nav {
-  width: 100%;
-  margin-top: 20px;
-  justify-content: center;
-  background: #F2EFEC;
-}
-#nav a {
-  font-family: "Space Mono", monospace;
-  text-transform: lowercase;
-  color: #272727;
-}
-#nav .current, #nav a:hover {
-  font-weight: 700;
-  font-style: italic;
-}
-
-/*# sourceMappingURL=styles.css.map */
+#nav { width: 100%; margin-top: 20px; justify-content: center; background: #F2EFEC; }
+#nav a { font-family: 'Space Mono', monospace; text-transform: lowercase; color: #272727; }
+#nav .current, #nav a:hover { font-weight: 700; font-style: italic; }
